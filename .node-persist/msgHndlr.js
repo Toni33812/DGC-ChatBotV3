@@ -64,7 +64,7 @@ module.exports = msgHandler = async (client, message) => {
         const groupAdmins = isGroupMsg ? await client.getGroupAdmins(groupId) : ''
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
-        const ownerNumber = '6285559038021@c.us'
+        const ownerNumber = '628811929177@c.us'
         const DGCfounder = 'Biancho Junaidi'
         const apikeyvhtear = 'APIKEY api.vhtear.com here'
         const DGCbotowner = 'MRHRTZ@kali:~#'
